@@ -53,6 +53,7 @@
        ├── git_analyzer.py
        ├── main.py
        ├── report_generator.py
+       ├── update_all_repos.py  # independant script to automatically update local repos before getting statistics
        └── utils.py
    └── tests/
    ```
@@ -71,7 +72,14 @@
    - `alias_mapping_by_group`: Mappings of various author aliases to a unified name for each group (e.g.: "salender lizbeth" and "lizbeth" is the same person).
    - `fixed_project_start_date`: The start date for your project analysis.
 
-5. **Run analysis:**  
+5. **Update repositories:** (optional)
+   If necessary, run:
+
+   ```bash
+   python3 src/update_all_repos.py --root path/to/student_projects --status --log
+   ```
+
+6. **Run analysis:**  
    From the project root directory, run:
 
    ```bash
@@ -80,7 +88,7 @@
 
    Replace `path/to/student_projects` with the directory containing each group's project repository, and `YYYY-MM-DD` with your desired target date (or modify `config.py`).
 
-6. **Outputs:**  
+7. **Outputs:**  
    The tool generates CSV files and PDF reports in the root directory. These outputs provide an overview of each group's activity and can be used for further analysis or reporting.
 
 ## Customization
