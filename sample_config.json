@@ -1,0 +1,41 @@
+{
+  "excluded_members": [
+    "laine albert",
+    "nobody john"
+  ],
+  "alias_mapping_by_group": {
+    "group1": {
+      "salender lizbeth": "salender lizbeth",
+	    "lizbeth": "salender lizbeth",
+      "doe john": "doe john",
+	    "jd": "doe john"
+    },
+    "group2": {
+      "laine albert": "laine albert",
+      "al1": "alain",
+      "al": "alain",
+      "smith jane": "smith jane"
+    },
+    "group3": {
+      "brown bob": "brown bob",
+	    "bb": "brown bob",
+      "black mary": "black mary",
+	    "mary black": "black mary"
+    },
+    "group4": {
+      "white alice": "white alice",
+	    "alice": "white alice",
+      "green piotr": "green piotr",
+	    "piotr green": "green piotr",
+	    "pg": "green piotr"
+    },
+    "group5": {
+      "blue sam": "blue iuri",
+      "orange susan": "orange susan"
+    },
+    "global": {
+      "admin": "admin"
+    }
+  },
+  "fixed_project_start_date": "2025-02-1"
+}
